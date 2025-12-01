@@ -1,0 +1,31 @@
+/* applies default font to entire application */
+.root {
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+/* style for all action buttons */
+.action-button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Reset button (red) */
+.reset-button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+.reset-button:hover {
+    -fx-background-color: orange;
+}
+
+/* make input area transparent so wallpaper shows behind it */
+#inputArea {
+    -fx-background-color: transparent;
+}
+
+/* Pizza display panel */
+#pizzaDisplay {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
